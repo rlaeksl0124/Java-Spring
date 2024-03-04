@@ -30,7 +30,7 @@ public class YoilTeller {
         response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
         PrintWriter out = response.getWriter(); // response 객체에서 브라우저로의 출력 스트림을 얻는다
-        out.println(year+"년 "+month+"월 "+day+"일 ");
+        out.println(year+"년 "+month+"월 "+day+"일 "); // 브라우저에 결과를 주려면 이렇게 작성해야한다
         out.println(yoil+"요일입니다");
     }
 }
